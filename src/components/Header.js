@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function Header() {
   return (
@@ -9,8 +10,8 @@ function Header() {
             <img src="/img/logo.svg" alt="" />
           </div>
           <ul className="flex space-x-[48px] text-xl text-c-gray">
-            <li>Home</li>
-            <li>Place to stay</li>
+            <Link to="/">Home</Link>
+            <Link to="/place">Place to stay</Link>
             <li>NFTs</li>
             <li>Community</li>
           </ul>

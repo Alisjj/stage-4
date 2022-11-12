@@ -52,7 +52,7 @@ function Home() {
           Inspiration for your next adventure
         </h1>
 
-        <div className="grid grid-cols-4 gap-[24px] mt-[40px]">
+        <div className="grid sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-[24px] mt-[40px]">
           <Card img="/img/mcamp.png" />
           <Card img="/img/island.png" />
           <Card img="/img/house.png" />
@@ -65,7 +65,31 @@ function Home() {
       </div>
       <div className="w-full h-[774px] flex justify-center items-center bg-c-purple">
         <div className="max-w-7xl flex justify-between w-full">
-          <div></div>
+          <div className="w-2/6 space-y-[35px] text-white">
+            <h1 className="text-5xl font-bold">Metabnb NFTs</h1>
+            <p className="text-lg">
+              Discover our NFT gift cards collection. Loyal customers gets
+              amazing gift cards which are traded as NFTs. These NFTs gives our
+              cutomer access to loads of our exclusive services.
+            </p>
+            <button className="bg-white px-[28px] py-[15px] text-c-purple rounded-xl text-base">
+              Learn More
+            </button>
+          </div>
+          <div className="relative -top-20">
+            <img className="relative -top-4" src="/img/image_9.png" alt="" />
+            <img
+              className="absolute top-36 -left-60"
+              src="/img/image_7.png"
+              alt=""
+            />
+            <img
+              className="absolute inset-0 left-12 top-60"
+              src="/img/image_8.png"
+              alt=""
+            />
+            <div></div>
+          </div>
         </div>
       </div>
     </main>

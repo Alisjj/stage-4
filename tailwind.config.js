@@ -8,6 +8,7 @@ module.exports = {
         "c-purple": "#A02279",
         "c-gray": "#434343",
         "c-light-gray": "#A3A3A3",
+        "c-black": "#1D1D1E",
       },
     },
   },
